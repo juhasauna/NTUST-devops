@@ -1,5 +1,6 @@
 name: CI Dev Deployment
 on:
+  workflow_dispatch:
   push:
     branches: [ main ]
 
