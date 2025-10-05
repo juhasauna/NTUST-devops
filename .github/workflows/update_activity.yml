@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Update Github Activity
-        uses: juhasauna/activity-log@main
+        uses: juhasauna/activity-log@master
         with:
           GITHUB_USERNAME: "juhasauna"
           GITHUB_TOKEN: ${{ secrets.SUPER_SECRET }}
